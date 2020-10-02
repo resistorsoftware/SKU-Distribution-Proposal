@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="html">
+  <head>
+    <title><%= title %></title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link name="stylesheet" rel="stylesheet" type="text/css" href="styles/html.css" />
+    <meta name="author" content="<%= authors.join(', ') %>" />
+    <meta name="subject" content="<%= subject %>" />
+    <meta name="keywords" content="<%= keywords %>" />
+    <meta name="date" content="<%= published_at %>" />
+    <%= highlight_theme %>
+  </head>
+
+  <body>
+    <div class="frontcover container">
+      <div>
+        <div class="logo"></div>
+        <p class="subject"><%= subject %></p>
+        <p class="description"><%= title %></p>
+        <p class="authors"><strong>Prepared for:</strong></p>
+        <p class="authors"><%= prepfor %><br><%= prepforemail %><br><%= prepforaddress %></p>
+        <p class="authors"><strong>Prepared by:</strong></p>
+        <p class="authors">Dave Lazar<br>Resistor Software Inc.<br>dlazar@resistorsoftware.com</p>
+        <div class="logo2"></div>
+      </div>
+    </div>
+
+    <div id="chapters">
+      <%= content %>
+    </div>
+
+    <div class="imprint-page container">
+      <div>
+        <h2><%= subject %></h1>
+        <p class="description"><%= title %></p>
+        <p class="authors"><%= authors.to_sentence %></p>
+        <p class="copyright"><%= copyright %></p>
+      </div>
+    </div>
+
+    <a href="#" class="go-top">⇧</a>
+  </body>
+</html>

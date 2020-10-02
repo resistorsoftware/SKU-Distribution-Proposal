@@ -1,0 +1,56 @@
+# The book's title. Will be used everywhere!
+title: "Resistor Software Proposal"
+
+# The book's language.
+language: en
+
+# Your book copyright info.
+# Here's some examples:
+#
+#   Copyright 2017 by Dave Lazar.
+#   Copyright 2017 by Dave Lazar. This work is licensed under MIT License.
+#   This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
+#   This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.
+#   This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+#
+copyright: "Copyright (C) 2020 Resistor Software Inc."
+
+# Who's publishing this book.
+publisher: "Resistor Software Inc."
+
+# When this book was published.
+published_at: "2020-01-17"
+
+# Some book title.
+subject: "Proposal For ...."
+
+# Some book description.
+title: "Shopify App Updates"
+
+# Prepared for.
+prepfor: ""
+
+# Prepared for email.
+prepforemail: ""
+
+# Prepared for address.
+prepforaddress: ""
+
+# Some keywords that identify this book.
+keywords: "Shopify proposal"
+
+# Some unique identification. Works great with your domain
+# like `http://yourbook.example.com`.
+uid: ""
+
+# Your book identification like ISBN or ISSN.
+identifier:
+  id: "http://resistorsoftware.com"
+  type: "URL" # can be ISBN, ISSN or URL
+
+# This book authors.
+authors:
+- "Resistor Software Inc."
+
+# Syntax highlight theme. Can be any of supported by Rouge.
+theme: github
